@@ -1,0 +1,5 @@
+INSERT INTO Pedidos (
+VALUES
+(1, 100.79),
+(2, 94.20),
+(3, 250.00)

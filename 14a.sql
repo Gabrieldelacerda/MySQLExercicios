@@ -1,0 +1,6 @@
+CREATE TABLE Categorias (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    Nome VARCHAR(255),
+    ID_Pai INT,
+    FOREIGN KEY (ID_Pai) REFERENCES Categorias(ID)
+);

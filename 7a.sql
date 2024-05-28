@@ -1,0 +1,6 @@
+CREATE TABLE Pedidos (
+    ID_Pedido INT AUTO_INCREMENT PRIMARY KEY,
+    ID_Cliente INT,
+    VALOR DECIMAL(10, 2),
+    FOREIGN KEY (ID_Cliente) REFERENCES Clientes(ID)
+);

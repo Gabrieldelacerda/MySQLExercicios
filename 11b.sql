@@ -1,0 +1,10 @@
+DELIMITER //
+
+CREATE TRIGGER antes_inserir_pedido
+BEFORE INSERT ON Pedidos
+FOR EACH ROW
+BEGIN
+    SET NEW.DataCriacao = NOW();
+END //
+
+DELIMITER ;

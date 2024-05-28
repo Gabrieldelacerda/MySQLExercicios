@@ -1,0 +1,1 @@
+CALL AdicionarCliente('Gabriel Moraes', 23, 'Belo Horizonte 2.0');

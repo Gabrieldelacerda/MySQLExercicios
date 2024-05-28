@@ -1,0 +1,2 @@
+ALTER TABLE Pedidos
+ADD COLUMN DataCriacao DATETIME;

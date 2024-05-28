@@ -1,0 +1,6 @@
+CREATE TABLE Clientes (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    Nome VARCHAR(255),
+    Idade INT,
+    Cidade VARCHAR(255)
+);

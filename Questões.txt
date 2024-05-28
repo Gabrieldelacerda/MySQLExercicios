@@ -1,0 +1,14 @@
+1)	Crie uma tabela chamada Clientes com as colunas ID (inteiro, chave primária), Nome (texto), Idade (inteiro) e Cidade (texto).
+2)	Insira três registros na tabela Clientes.
+3)	Selecione todos os registros da tabela Clientes.
+4)	Selecione todos os clientes que têm mais de 30 anos.
+5)	Atualize a cidade de Fulano para Contagem.
+6)	Exclua Fulano.
+7)	Crie uma tabela Pedidos com colunas ID_Pedido (inteiro, chave primária), ID_Cliente (inteiro, chave estrangeira), e Valor (decimal). Insira dados de exemplo e selecione os nomes dos clientes junto com os valores de seus pedidos.
+8)	Calcule o valor total dos pedidos por cliente.
+9)	Selecione todos os clientes que fizeram pedidos com valor total superior a 150.
+10)	Crie um procedimento armazenado que insira um novo cliente.
+11)	Crie um trigger que automaticamente insira uma data de criação na tabela Pedidos ao inserir um novo pedido.
+12)	Crie uma vista que mostra o nome dos clientes e o valor total dos seus pedidos.
+13)	Crie um índice na coluna Nome da tabela Clientes.
+14)	Crie uma tabela Categorias com colunas ID (inteiro, chave primária), Nome (texto), e ID_Pai (inteiro, chave estrangeira que referencia ID). Insira dados para formar uma hierarquia de categorias e selecione todas as subcategorias de uma categoria específica.
